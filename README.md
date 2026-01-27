@@ -11,10 +11,10 @@ This repository contains in-class JavaScript exercises focused on building a str
 - Real-world decision making in code
 
 ## Instructions
-1. Open **assignment.js**.
+1. Open **assignments.js**.
 2. Complete each task where `TODO` is written.
 3. Do **NOT** create new files.
-4. Write **all your code only inside `assignment.js`**.
+4. Write **all your code only inside `assignments.js`**.
 5. Test your code using the browser console or Node.js.
 6. Commit and push your changes once done.
 
