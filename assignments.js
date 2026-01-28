@@ -13,7 +13,6 @@
 // --------------------------------------------
 // TASK 1: Cafeteria Menu Checker
 // --------------------------------------------
-const menuItem = "Sandwich";
 
 // TODO:
 // - Use a switch statement
@@ -220,3 +219,81 @@ const weather = {
 // rainy + temperature >= 18 → umbrella message
 // cold → dress warmly
 // default → unavailable data
+
+
+
+    //task1
+
+const menuItem = "Salad";
+console.log(menuItem)
+
+switch(menuItem){
+    case "Sandwich":
+         console.log("sandwich is available")
+          break;
+
+    case "Salad":
+         console.log("salad is available")
+          break;
+          
+    case "Juice":
+         console.log("juice is available") 
+           break;   
+           
+     default:
+        console.log("item not available") 
+}
+ 
+//task2
+
+
+if(score>=80 && score <100){console.log("excellent")}
+else if(score>= 60 && score <80){console.log("good")}
+else if(score< 60){console.log("needs improvement")}
+else{console.log("insert the scores from 0-100")}
+ 
+//task3
+
+// switch(signal){
+//      case "red":
+//       console.log("Stop")
+//       break;
+
+//     case "yellow":
+//       console.log("Get Ready")
+//       break;
+
+//     case "green":
+//       console.log("Go")
+//       break;
+
+//     default :
+//      console.log("invalid signal")
+// }
+
+
+if(signal === "red"){console.log("Stop")}
+else if(signal === "yellow"){console.log("Get Ready")}
+else if(signal === "green"){console.log("Go")}
+else{console.log("invalid signal")}
+
+
+const{orderId,paymentStatus,shipped} = order
+
+if(paymentStatus == "paid" && shipped == true){console.log("your has been shipped")}
+else if(paymentStatus == "paid" && shipped == false){console.log("your order is being prepared")}
+else{console.log("your payement is pending")}
+
+
+const Employee = {
+  Employee_name:"laura",
+  phone:798971625,
+  address:{
+    po_box:"00902",
+    house_number:78383
+  }
+
+}
+
+console.log(Employee.phone)
+console(Employee.address.house_number)
