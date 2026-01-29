@@ -14,7 +14,7 @@ else{
         transactionid: transactionid,
         customer_name: customer_name,
         account_number: account_number,
-        status: successfull,
+        status: 'successfull',
         date: date
     }
 

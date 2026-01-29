@@ -64,6 +64,15 @@
 
 
 
-const prompt = require("prompt-sync")()
 
 
+const users =[]
+
+const user={
+    name:"laura",
+    pin:1234
+}
+
+users.push(user)
+
+console.log(users[0])
